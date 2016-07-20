@@ -23,7 +23,7 @@ module.exports = readmeMdBud({
   overview: 'doc/overview.md',
   links: require('./doc/links'),
   vars: {
-    get signature () {
+    get signature() {
       let comment = commentsInFile(require.resolve('./lib/amocha'))[ 0 ]
       return commentsInFile.describeFunction(comment)
     }
