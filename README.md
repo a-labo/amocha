@@ -106,6 +106,7 @@ Signature
 | reporter | string |  |
 | options.cwd | string | Working directory path |
 | options.reporter | string | Mocha reporter |
+| options.timeout | number | Timeout duration |
 
 
 
