@@ -1,6 +1,6 @@
 {
   "name": "amocha",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Async wrapper for mocha",
   "main": "lib",
   "scripts": {
