@@ -22,10 +22,9 @@
   "dependencies": {
     "aglob": "^1.0.2",
     "co": "^4.6.0",
-    "defaults": "^1.0.3",
     "execcli": "^4.0.8",
     "istanbul": "^0.4.4",
-    "mocha": "^3.0.1"
+    "mocha": "^3.0.2"
   },
   "devDependencies": {
     "ape-doc": "^2.0.4",
