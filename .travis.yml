@@ -5,5 +5,3 @@ install:
 - npm install
 script:
 - ./ci/test.js
-- ./ci/cover.js
-- ./ci/report.js

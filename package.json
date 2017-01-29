@@ -1,11 +1,11 @@
 {
   "name": "amocha",
-  "version": "1.0.17",
+  "version": "2.0.0",
   "description": "Async wrapper for mocha",
   "main": "shim/node",
   "scripts": {
     "test": "node ./ci/test.js",
-    "prepublish": "node ./ci/build.js && node ./ci/shim.js"
+    "prepare": "node ./ci/build.js"
   },
   "repository": "a-labo/amocha",
   "keywords": [
@@ -22,20 +22,17 @@
   },
   "homepage": "https://github.com/a-labo/amocha#readme",
   "dependencies": {
-    "aglob": "^1.0.2",
-    "babel-runtime": "^6.11.6",
+    "aglob": "^2.0.1",
+    "babel-runtime": "^6.22.0",
     "co": "^4.6.0",
     "execcli": "^4.0.8",
     "istanbul": "^0.4.4",
-    "mocha": "^3.1.2"
+    "mocha": "^3.2.0"
   },
   "devDependencies": {
-    "ababel": "^1.1.12",
-    "ababel-es2015": "^1.0.8",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
-    "ape-reporting": "^3.0.2",
     "ape-tasking": "^4.0.9",
     "ape-tmpl": "^5.0.20",
     "ape-updating": "^4.0.5",
@@ -43,7 +40,7 @@
     "injectmock": "^2.0.0"
   },
   "engines": {
-    "node": ">=4",
-    "npm": ">=2"
+    "node": ">=6",
+    "npm": ">=3"
   }
 }
