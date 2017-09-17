@@ -9,7 +9,7 @@ const pkg = require('../package.json')
 module.exports = {
   force: true,
   mode: '444',
-  data: { pkg}
+  data: {pkg}
 }
 
 if (!module.parent) {

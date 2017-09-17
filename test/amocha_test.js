@@ -6,27 +6,27 @@
 
 const amocha = require('../lib/amocha.js')
 const assert = require('assert')
-const co = require('co')
+
 
 describe('amocha', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Amocha', () => co(function * () {
-    yield amocha(
+  it('Amocha', async () => {
+    await amocha(
       'mocks/*test*.js',
       {
         cwd: `${__dirname}/../misc`
       }
     )
-  }))
+  })
 })
 
 /* global describe, before, after, it */
